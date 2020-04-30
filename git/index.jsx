@@ -14,3 +14,4 @@ make prefix=/usr/local install
 ssh-keygen -t rsa -C "XX"
 6.查看ssh公钥
 cat ~/.ssh/id_rsa.pub
+test
