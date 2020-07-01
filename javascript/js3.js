@@ -17,7 +17,7 @@ Children.prototype = new Parent()
 let c1 = new Children()
 let c2 = new Children()
 c1.array.push(6)
-console.log(c1.array, c2.array) // [1,2,3,4,5,6], [1,2,3,4,5,6]
+console.log(c1.array, c2.array, new Parent()) // [1,2,3,4,5,6], [1,2,3,4,5,6]
 // 解决这类问题 借用构造函数 + 组合继承
 // 其一, 保证了原型链中引用类型值的独立,不再被所有实例共享;
 // 其二, 子类型创建时也能够向父类型传递参数

@@ -12,3 +12,4 @@
 
 // 工具类 ramda
 // 事件冒泡详解 https://blog.csdn.net/weixin_43482353/article/details/99347549
+// js任务队列 https://segmentfault.com/a/1190000018234996
